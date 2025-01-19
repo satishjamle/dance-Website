@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/img/1.png" alt="Logo")
+          | HDA
+        li 
+          a(href="/") Home
+        li 
+          a(href="/about") About
+        li 
+          a(href="/services") Services
+        li 
+          a(href="/class-info") Class Info
+        li 
+          a(href="/contact") Contact Us
+    
+    section#introSection
+      div Welcome to User's Dance Academy
+      div.small Eat Sleep Dance Repeat
+    
+    section#missionSection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/1.png" alt="Dance Perfection")
+          div.card-content
+            p This is the best dance academy of the universe
+
+      div.card
+        h3 Dance the Way You Like
+        div.card-box
+          div.card-img
+            img(src="/static/img/2.png" alt="Dance the Way You Like")
+          div.card-content
+            p This is the best dance academy of the universe
+
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/img/3.png" alt="Expert Teaching")
+          div.card-content
+            p This is the best dance academy of the universe
+
+    section#sponsorsSection
+      h2 Our Sponsors
+      img(src="/static/img/img1.png" alt="Sponsor Image" class="spImage")
+      img(src="/static/img/img2.png" alt="Sponsor Image" class="spImage")
+      img(src="/static/img/img3.png" alt="Sponsor Image" class="spImage")
+      img(src="/static/img/img4.png" alt="Sponsor Image" class="spImage")
+
+    footer#footer
+      | Copyright © 2025 | All Rights Reserved
+
+    script
+      include ../static/index.js
